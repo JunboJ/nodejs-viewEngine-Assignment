@@ -1,0 +1,14 @@
+<%- include('./includes/head.ejs'); %>
+<%- include('./includes/nav.ejs'); %>
+
+<main>
+    <div class="container">
+        <form action="/reg" method="POST">
+            <label for="userNameField">Name</label>
+            <input type="text" name="userName">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</main>
+
+<%- include('./includes/foot.ejs'); %>

@@ -1,0 +1,16 @@
+<%- include('./includes/head.ejs'); %>
+<%- include('./includes/nav.ejs'); %>
+
+<main>
+    <div class="container">
+        <ul>
+            <% if (userList.length > 0) { %>
+            <% for (let user of userList) { %>
+            <li><%= user.userName %></li>
+            <% }; %>
+            <% }; %>
+        </ul>
+    </div>
+</main>
+
+<%- include('./includes/foot.ejs'); %>

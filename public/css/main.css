@@ -1,0 +1,26 @@
+nav {
+    background-color: dimgray;
+}
+
+.mainHeader__nav li {
+    display: inline-block;
+    padding: 1rem;
+}
+
+.mainHeader__item:hover {
+    background-color: black;
+}
+
+.mainHeader__item a:hover {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.mainHeader__item a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.active {
+    background-color: grey;
+}
